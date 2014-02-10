@@ -1,0 +1,6 @@
+{
+	"name": "ci-project",
+	"require": {
+		"behat/behat": "dev-optimization/subject-to-specification"
+	}
+}
