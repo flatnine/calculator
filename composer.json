@@ -1,6 +1,16 @@
 {
 	"name": "ci-project",
 	"require": {
-		"behat/behat": "dev-optimization/subject-to-specification"
+		"phpunit/phpunit": "3.7.31"
+	},
+
+	"config": {
+		"bin-dir": "bin/"
+	},
+
+	"autoload": {
+		"classmap": [
+			"app/libraries"
+		]
 	}
 }
